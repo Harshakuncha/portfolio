@@ -1,0 +1,635 @@
+.homebanner{
+    background-image: url("/Users/ishwaryahidkimath/Documents/VisualStudioProjects/Front end dev/Portfolio/ishwarya-portfolio/public/ishwarya_banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* Maintains aspect ratio and covers the container */
+    background-position: center; /* Centers the image */
+}
+.center{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+  }
+.row-style{
+    width: 100%;
+}
+
+
+.section-services {
+	font-family: "Poppins", sans-serif;
+	background-color: #e6edf7;
+	color: #202020;
+	padding-top: 115px;
+    padding-bottom: 120px;
+}
+
+.section-services .header-section {
+	margin-bottom: 34px;
+}
+
+.section-services .header-section .title {
+	position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+	font-weight: 700;
+    font-size: 32px;
+}
+
+.section-services .header-section .title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50px;
+	height: 3px;
+	background-color: #ff4500;
+    border-radius: 3px;
+}
+
+.section-services .header-section .title:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+    transform: translateX(30px);
+	width: 10px;
+	height: 3px;
+	background-color: #504f93;
+    border-radius: 3px;
+}
+
+.section-services .header-section .description {
+	font-size: 14px;
+    color: #282828;
+}
+
+.section-services .single-service {
+    position: relative;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    overflow: hidden;
+    height: 450px;
+}
+
+.section-services .single-service .content {
+	position: relative;
+	z-index: 20;
+}
+
+.section-services .single-service .circle-before {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transform: translate(40%, -40%);
+    width: 150px;
+    height: 150px;
+    background-color: #233142;
+    border: 6px solid #504f93;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 10;
+    transition: all .6s;
+}
+
+.section-services .single-service:hover .circle-before {
+	width: 100%;
+	height: 100%;
+	transform: none;
+	border: 0;
+	border-radius: 0;
+	opacity: 1;
+}
+
+.section-services .single-service .icon {
+	display: inline-block;
+	margin-bottom: 26px;
+    width: 70px;
+    height: 70px;
+    background-color: #233142;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s;
+}
+
+.section-services .single-service:hover .icon {
+	background-color: #fff;
+	color: #ff4500;
+}
+
+.section-services .single-service .title {
+    margin-bottom: 5px;
+	font-weight: 700;
+    font-size: 20px;
+    transition: color .3s;
+}
+
+.section-services .single-service:hover .title {
+	color: #fff;
+}
+
+.section-services .single-service .subtitle {
+  margin-bottom: 5px;
+font-weight: 700;
+  font-size: 15px;
+  transition: color .3s;
+}
+
+.section-services .single-service:hover .subtitle {
+color: #fff;
+}
+
+.section-services .single-service .description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: color .3s;
+}
+
+.section-services .single-service:hover .description {
+	color: #fff;
+}
+
+.section-services .single-service a {
+	position: relative;
+	font-size: 18px;
+    color: #202020;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.section-services .single-service:hover a {
+	color: #fff;
+}
+
+.section-services .single-service a:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background-color: #ff4500;
+	transition: background-color .3s;
+}
+
+.section-services .single-service:hover a:after {
+	background-color: #fff;
+}
+
+
+
+
+
+.my-navbar {
+    box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
+    /* position: fixed; */
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar-brand img {
+    width: 200px;
+  }
+  
+  .nav-link {
+    border-bottom: 4px solid white;
+    margin-right: 24px;
+    transition: 0.3s ease;
+    padding: 5px;
+  }
+  .nav-link:hover {
+    color: black;
+    border-bottom: 4px solid #eb4027;
+  }
+  .nav-active a {
+    color: white !important;
+    font-weight: 600;
+    border-bottom: 4px solid #eb4027;
+  }
+
+  .bg-nav{
+    background-color: #233142;
+    z-index: 99999;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+  
+  .nav-container-1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-center-1{
+    text-align: center!important;
+    padding-top: 70px;
+  }
+  .heading-style-1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  #main {
+    margin: 50px 0;
+  }
+  
+  #main #faq .card {
+    margin-bottom: 30px;
+    border: 0;
+  }
+  
+  #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main #faq .card .card-header .btn-header-link {
+    display: block;
+    text-align: center;
+    background: #233142;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #main #faq .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    background: #233142;
+    color: #fff;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+  }
+  
+  #main #faq .card .collapsing {
+    background: #fff;
+    line-height: 30px;
+  }
+  
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  
+  #main #faq .card .collapse.show {
+    background: #fff;
+    line-height: 30px;
+    color: #222;
+  }
+
+  .card-body{
+    color: #233142;
+  }
+
+  .leetcode-section{
+    background-color: #233142;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  .leetcode-name-style{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  /* leetcode */
+  .progress {
+    width: 150px;
+    height: 150px !important;
+    float: left; 
+    line-height: 150px;
+    background: none;
+    margin: 20px;
+    box-shadow: none;
+    position: relative;
+  }
+  .progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .progress .progress-left {
+    left: 0;
+  }
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  .progress .progress-right {
+    right: 0;
+  }
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+  }
+  .progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #000;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .progress.blue .progress-bar {
+    border-color: #049dff;
+  }
+  .progress.blue .progress-left .progress-bar {
+    animation: loading-2 1.5s linear forwards 1.8s;
+  }
+  .progress.yellow .progress-bar {
+    border-color: #fdba04;
+  }
+  .progress.yellow .progress-right .progress-bar {
+    animation: loading-3 1.8s linear forwards;
+  }
+  .progress.yellow .progress-left .progress-bar {
+    animation: none;
+  }
+  @keyframes loading-1 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes loading-2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+    }
+  }
+  @keyframes loading-3 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(135deg);
+      transform: rotate(135deg);
+    }
+  }
+
+  .leetcode-solved-style{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leetcode-submissions-style{
+    color:white
+  }
+
+  .leetcode-submissions-progess-style{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 45px;
+  }
+
+  .contact-me-style-1{
+    text-shadow: 3px 3px 3px #ababab;
+    padding-top: 150px;
+    font-family: 'Brush Script MT';
+    color: #233142;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  /* Contact me  */
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.contact-me-content-cards {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-me-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #233142;
+  padding: 1em;
+  position: relative;
+  color: #233142;
+  width: 40em;
+  height: 20em;
+  overflow: auto;
+}
+
+.contact-me-card:hover {
+  transform:rotate(3deg);
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.contact-me-card > .head > .title {
+    /* font-family: "Trirong Font"; */
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    color: #233142;
+  margin: 4%;
+}
+
+.contact-me-card > .head > .subtitle {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.contact-me-icon-style{
+    width: 90px;
+    color: #233142;
+}
+
+.leetcode-section{
+  padding: 10px;
+  background-color: #082f4e;
+  height: 100%;
+  border-radius: 10px;
+}
+.container {
+  text-align: center;
+  /* background-color: #f0f4f8; */
+}
+.intro-text {
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #fff;
+  font-style: italic;
+}
+
+.name-text {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+  color: #233142;
+  text-shadow: 1px 1px 0px #e3e3e3, 
+               -1px -1px 0px #e3e3e3, 
+               -1px 1px 0px #e3e3e3, 
+               1px -1px 0px #e3e3e3;
+
+}
+
+.description-text {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  color: #233142;
+  font-style: italic;
+}
+.about-me {
+  font-family: 'Courier New', monospace;
+  color: #233142;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #ababab;
+  font-size: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .homebanner{
+    background-image: url("/Users/ishwaryahidkimath/Documents/VisualStudioProjects/Front end dev/Portfolio/ishwarya-portfolio/public/ishwarya_banner.jpg");
+    /* width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30vh; */
+    /* margin-top: 30px; */
+    width: 100%;
+        height: 30vh; /* Adjust height for smaller screens */
+        background-repeat: no-repeat;
+        background-size: cover; /* Maintain aspect ratio */
+        background-position: center; /* Center the image */
+}
+
+.name-text {
+  font-family: 'sans-serif', monospace;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 0;
+  color: #233142;
+  padding-left: 100px;
+  text-shadow: 0.6px 0.6px 0px #e3e3e3, 
+                 -0.6px -0.6px 0px #e3e3e3, 
+                 -0.6px 0.6px 0px #e3e3e3, 
+                 0.6px -0.6px 0px #e3e3e3;
+
+}
+
+.intro-text {
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 0;
+  color: #fff;
+  font-style: italic;
+  padding-left: 100px;
+}
+
+.description-text {
+  font-family: 'Courier New', monospace;
+  font-size: 0.5rem;
+  line-height: 0.5;
+  margin-top: 0.5rem;
+  color: #233142;
+  font-style: italic;
+  padding-left: 100px;
+}
+
+.about-me {
+  font-family: 'Brush Script MT';
+  color: #233142;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #ababab;
+  font-size: 20px;
+}
+
+}
