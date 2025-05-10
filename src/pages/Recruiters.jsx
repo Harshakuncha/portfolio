@@ -103,7 +103,7 @@ const Recruiters = () => {
 </div>
 <div id="main"> 
   <object
-    data="/Harsha_Vardhan_Reddy_Kuncha_Resume.pdf"
+    data="/HarshaVardhanReddy_Resume.pdf"
     type="application/pdf"
     width="100%"
     height="800px"

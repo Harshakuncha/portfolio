@@ -8,12 +8,12 @@ const About = () => {
       </h2>
 
       <p style={{ lineHeight: '1.7', fontSize: '1.1rem', color: '#444' }}>
-        I’m a passionate Software Engineer with 3+ years of experience building scalable, data-driven web applications and backend systems. I specialize in full-stack development using modern technologies like Python, FastAPI, React, Node.js, and Spring Boot. My work has spanned across fintech, cloud-native platforms, and performance-critical systems, with a proven ability to design RESTful APIs, implement service-oriented architectures, and optimize end-to-end performance.
+        I’m a passionate Software Engineer with 3+ years of experience building scalable backend systems, intuitive frontends, and cloud-native applications across fintech, enterprise, and AI-driven domains. I bring deep expertise in Java, Node.js, React, and Python, with hands-on experience in designing microservices architectures, optimizing distributed systems, and deploying production-grade applications on AWS. My journey spans across leading firms like Oracle and Samsung, where I delivered high-throughput payment platforms and resilient infrastructure solutions. Currently pursuing my Master's in Computer Science at Arizona State University (CGPA: 4.0), I thrive at the intersection of systems engineering and innovation, with a strong drive to solve complex real-world problems through clean, efficient code and thoughtful design.
       </p>
 
-      <p style={{ lineHeight: '1.7', fontSize: '1.1rem', color: '#444', marginTop: '1rem' }}>
+      {/* <p style={{ lineHeight: '1.7', fontSize: '1.1rem', color: '#444', marginTop: '1rem' }}>
         At Growealth, I engineered real-time dashboards and dispute-resolution APIs that surfaced $3.2M+ in savings and reduced latency by 40%. Prior to that, I contributed to high-availability microservices at Oracle and developed 5G simulation tools during my internship at Samsung. I enjoy writing clean, testable code and thrive in collaborative environments that challenge me to learn, iterate, and build systems that scale.
-      </p>
+      </p> */}
     </div>
   );
 };

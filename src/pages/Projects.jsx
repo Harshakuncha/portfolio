@@ -22,6 +22,20 @@ const Projects=()=>{
 							<span class="icon">
 								<i class="fas fa-laptop-code"></i>
 							</span>
+							<h3 class="title">Crypto Price Tracker</h3>
+							<h3 class="subtitle">Jan 2025 – Apr 2025</h3>
+							<p class="description">AI is transforming the world, but at what cost? Training massive models can consume enormous amounts of energy, contributing to carbon emissions. Green-AI tackles this challenge head-on by offering tools, techniques, and frameworks to make AI development more energy-efficient and environmentally responsible.</p>
+							{/* <a href="#" class="learn-more">Learn More</a> */}
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-laptop-code"></i>
+							</span>
 							<h3 class="title">Green AI</h3>
 							<h3 class="subtitle">Jan 2025 – Apr 2025</h3>
 							<p class="description">AI is transforming the world, but at what cost? Training massive models can consume enormous amounts of energy, contributing to carbon emissions. Green-AI tackles this challenge head-on by offering tools, techniques, and frameworks to make AI development more energy-efficient and environmentally responsible.</p>
