@@ -46,8 +46,8 @@ const Header = () => {
         <ul style={navLinksStyle}>
           {[
             { name: "About Me", path: "/" },
+            { name: "Experience", path: "/recruiters" },
             { name: "Projects", path: "/projects" },
-            { name: "For Recruiters", path: "/recruiters" },
             { name: "Contact Me", path: "/contactMe" }
           ].map((item) => (
             <motion.li key={item.name} whileHover={hoverEffect}>
